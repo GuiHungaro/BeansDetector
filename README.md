@@ -38,5 +38,5 @@ Depois do upload, o modelo irá rodar e classificar qual o tipo de feijão está
 
 * Este modelo foi treinado com fotos aleatórias da internet. Ele não vai estar performando no melhor desempenho possível pois foi utilizado uma base de treino fraca. **Garbage in - Garbage out**.
 
-* Este projeto é uma brincadeira apenas para validar a idéia e unir a biblioteca Streamlit com o TeachAble Machine
+* Este projeto é uma forma de validar a idéia e unir a biblioteca Streamlit com o Teachable Machine. Não tem aplicação comercial neste formato.
 
