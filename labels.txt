@@ -1,0 +1,5 @@
+0 feijao_branco
+1 feijao_carioca
+2 feijao_fradinho
+3 feijao_preto
+4 feijao_rajado
