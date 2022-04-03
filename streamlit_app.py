@@ -21,7 +21,7 @@ if foto_frente:
       image = Image.open(uploaded_file)
       st.image(image, caption='', use_column_width=True)
       st.write("Classificando...")
-      label = funcao_classificar_imagem_frente(image, 'keras_model.h5')
+      label = funcao_classificar_imagem(image, 'keras_model.h5')
   
       if label == 0:
         st.title("Feijão Branco.")
