@@ -1,4 +1,4 @@
-![alt text](logo.png)
+![alt text](logo2.png)
 
 # Red Hot Chili Beans
 
