@@ -16,7 +16,7 @@ Já que os critérios avaliados dependem da avaliação humana e podem ser diver
 Se o grão de soja não estiver de acordo com parâmetros estabelecidos, o agricultor pode ter o desconto no pagamento da carga.
 
 O Brasil exportou em 2021 86,628 milhões de toneladas de soja em grão, 5,2% mais que no ano anterior. 
-Se uma API de classificação de grãos atingisse 20% do total exportado, pagando R$ 0,5 por saca (60kg), teria um faturamento de R$ 144.380.000,00 em 2021.
+Se uma API de classificação de grãos atingisse 20% do total exportado, cobrando R$ 0,5 por saca (60kg) classificada, teria um faturamento de R$ 144.380.000,00 em 2021.
 
 Neste MVP exploramos essa oportunidade no mundo das AgriTech's!
 
