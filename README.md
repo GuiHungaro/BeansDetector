@@ -6,13 +6,19 @@ Red Hot Chili Beans é um aplicativo rodando na nuvem utilizando a a biblioteca 
 
 ## Para acessá-lo [Clique aqui](https://share.streamlit.io/guihungaro/beansdetector/main). 
 
------
+----- 
 
-Este é um MVP para um futuro classificador de grãos. 
-O Brasil é o 4° maior produtor de grãos no mundo, porém o método de classificação, assim como grande parte da produção agrícola do país, usa pouca tecnologia, sendo pouco automatizado e depende de mão de obra. 
+Você sabia que o Brasil é o quarto maior produtor de grãos do mundo porém todo o processo de classificação de grãos é feito por um profissional?
+Já que os critérios avaliados dependem da avaliação humana e podem ser divergentes, não há um padrão de análise. 
+
+Se o grão de soja não estiver de acordo com parâmetros estabelecidos, o agricultor pode ter o desconto no pagamento da carga.
+
+
+
 O Brasil exportou em 2021 86,628 milhões de toneladas de soja em grão, 5,2% mais que no ano anterior. 
+Se uma API de classificação de grãos atingisse 20% pagando R$ 0,5 por saca (60kg), teria um faturamento de R$ 144.380.000,00 em 2021
 
-Se houvesse uma AgriTech que inventasse um classificador de grãos automatizado, atingisse 20% do mercado de exportação de soja (apenas soja) e cobra-se 0,50 centavos por saca (60kg) de soja classificada, teria um faturamento de R$144.380.000 apenas em 2021. 
+Neste MVP exploramos essa oportunidade no mundo das AgriTech's!
 
 São mais de 13 classes e subtipos de feijão, porém para este **MVP** nós treinamos apenas 5 classes, sendo elas:
 
