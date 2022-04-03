@@ -1,0 +1,6 @@
+streamlit
+numpy
+pillow
+tensorflow
+keras
+pip==22.0.4
