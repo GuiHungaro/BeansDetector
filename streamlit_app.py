@@ -7,7 +7,7 @@ from PIL import Image
 
 #02.Logo aplicativo.
 
-logo = Image.open("logo.png")
+logo = Image.open("logo2.png")
 st.image(logo, caption='', use_column_width=True)
 
 #03. Foto da frente do veículo.
