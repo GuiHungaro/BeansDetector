@@ -4,7 +4,7 @@
 
 Red Hot Chili Beans é um aplicativo rodando na nuvem utilizando a a biblioteca [Streamlit](https://streamlit.io/) (Python) para rodar um modelo de classificação de imagens utilizando o o [Teachable Machine do Google](https://teachablemachine.withgoogle.com/). 
 
-## Para acessá-lo [Clique aqui](link streamlit). 
+## Para acessá-lo [Clique aqui](https://share.streamlit.io/guihungaro/beansdetector/main). 
 
 -----
 
