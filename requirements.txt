@@ -4,3 +4,6 @@ pillow
 tensorflow
 keras
 pip==22.0.4
+pandas
+gsheetsdb
+gspread-pandas
