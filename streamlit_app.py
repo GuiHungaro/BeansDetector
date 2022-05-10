@@ -1,31 +1,3 @@
-#Importando bibliotecas necessárias
-import streamlit as st
-import pandas as pd
-from google.oauth2 import service_account
-from gsheetsdb import connect
-from gspread_pandas import Spread,Client
-
-#Conectando ao Google Sheets via API
-scope = ["https://www.googleapis.com/auth/spreadsheets"]
-
-credentials = service_account.Credentials.from_service_account_info(
-    st.secrets["gcp_service_account"], scopes= scope)
-
-conn = connect(credentials=credentials)
-client = Client(scope=scope,creds=credentials)
-
-#Criando o objeto spread do gspread_pandas
-
-spreadsheetname = st.secrets["private_gsheets_url"]
-spread = Spread(spreadsheetname,client = client)
-
-#Criando o DataFrame
-df = spread.sheet_to_df(index=0)
-
-#Plotando o DataFrame
-st.dataframe(df)
-
-"""
 #01.Importar as funções e bibliotecas necessárias.
 
 from arquivo_classificador_de_imagem import funcao_classificar_imagem
@@ -67,4 +39,4 @@ if foto_frente:
 
     else:
       st.title("Feijão Rajado.")
-"""
+
